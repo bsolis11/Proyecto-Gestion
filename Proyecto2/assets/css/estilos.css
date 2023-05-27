@@ -174,3 +174,27 @@ main{
         position: relative;
     }
 }
+
+/* form insertar productos */
+.formulario-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .formulario-content {
+    flex: 1;
+  }
+
+  .formulario-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+
+  .formulario-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
