@@ -176,23 +176,29 @@ main{
 }
 
 /* form insertar productos */
+
 .formulario-container {
-    width: 75%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto auto;
     display: flex;
+    background-color: rgba(186, 144, 118, 0.5);
   }
 
   .formulario-content {
-    color: #fff;
-    flex: 1;
+    color: wheat;
+    flex: 2;
+    width: 75%;
+    padding: 1%;
   }
 
   .formulario-image {
-    flex: 1;
+    width: 25%;
+    flex: 0.5;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 50px;
+    padding: 1%;
+    object-fit:contain;
   }
 
   .formulario-image img {
