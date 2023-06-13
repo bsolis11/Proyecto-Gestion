@@ -16,9 +16,11 @@ if ($resultado) {
 
         // Redirigir al usuario según su rol
         if ($resultado['rol'] == 1) {
-            header('Location: home1.html');
+            //Vendedor
+            header('Location: Principal1.html');
         } elseif ($resultado['rol'] == 2) {
-            header('Location: home2.php');
+            //Comprador
+            header('Location: Principal2.html');
         } else {
             // Rol desconocido
             echo "Rol desconocido.";
