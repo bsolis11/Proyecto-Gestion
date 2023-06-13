@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Consejos</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,37 +10,56 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Proyecto2/assets/css/estilosPrincipal.css">
 
 </head>
+<link rel="stylesheet" href="..//Proyecto2/ImagenesIndex/imagen1.jpg">
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #1368a4;">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#" aria-current="page">Guia Productos<span class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recetas</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Registrar</a>
-                        <a class="dropdown-item" href="#">Modificar</a>
-                        <a class="dropdown-item" href="#">Eliminar</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="d-flex my-2 my-lg-0">
-                <input class="form-control me-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0 bg-dark" type="submit">Search</button>
-            </form>
+  <header style="background-image: url(../Proyecto2/ImagenesIndex/imagen1.jpg);
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  background-attachment: fixed;">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="ImagenesIndex/eco.png" alt="" width="70" height="54" class="d-inline-block align-text-top">
+          <h1>Vida</h1>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="Principal1.html">
+                  <h5>Inicio</h5>
+              </a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" href="../Proyecto2/recetas.html">
+                <h5>Recetas</h5>
+              </a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link active" aria-current="page" href="../Proyecto2/listaProductos.php">
+                  <h5>Tienda</h5> </a>
+            </li>
+            <li class="nav-item me-5 dropdown letras ">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acciones Productos</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../Proyecto2/eliminarProducto.html">Eliminar un producto</a>
+                <a class="dropdown-item" href="../Proyecto2/modificarProducto.html">Editar productos</a>
+                <a class="dropdown-item" href="../Proyecto2/insertarProducto.html">Agregar productos</a>
+              </div>
+            </li>
+            
+
         </div>
+      </div>
     </nav>
   </header>
 <div class="container-fluid">
@@ -84,7 +103,7 @@
                                  <li>Cosecha los tomates cuando estén maduros y completamente coloreados.</li>
                               </td>
                               <td>
-                                <img src="https://www.redagricola.com/pe/assets/uploads/2018/02/segunda.jpg" class="rounded mx-auto d-block" style=" display: block;  width: 40%;" alt="Tomates">
+                                <img src="../Proyecto2/ImagenesIndex/tomate.jpeg" class="rounded mx-auto d-block" style=" display: block;  width: 40%;" alt="Tomates">
                               </td>
                             </tr>
                             <tr>
