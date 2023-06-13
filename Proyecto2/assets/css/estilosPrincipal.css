@@ -31,3 +31,16 @@
     right: 0;
     z-index: 1000;
   }
+
+  .letras{
+    font-weight: 600;
+    color:white;
+  }
+
+  .atrasMenu{
+    background-image: url(../Proyecto2/ImagenesIndex/imagen1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
