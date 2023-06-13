@@ -20,6 +20,46 @@
 <body class="bg-form-add-prod">
   <header>
     <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="ImagenesIndex/eco.png" alt="" width="70" height="54" class="d-inline-block align-text-top">
+                <h1>Vida</h1>
+              </a>
+      
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="Principal1.html">
+                        <h5>Inicio</h5>
+                    </a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" href="../Proyecto2/recetas.html">
+                      <h5>Recetas</h5>
+                    </a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="../Proyecto2/listaProductos.php">
+                        <h5>Tienda</h5> </a>
+                  </li>
+                  <li class="nav-item me-5 dropdown letras ">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acciones Productos</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="../Proyecto2/eliminarProducto.html">Eliminar un producto</a>
+                    <a class="dropdown-item" href="../Proyecto2/modificarProducto.html">Editar productos</a>
+                    <a class="dropdown-item" href="../Proyecto2/insertarProducto.html">Agregar productos</a>
+                  </div>
+                </li>
+                  
+      
+              </div>
+            </div>
+          </nav>
   </header>
   <main>
     <div class="formulario-container">
