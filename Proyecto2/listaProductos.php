@@ -47,14 +47,10 @@
                     <a class="nav-link active" aria-current="page" href="../Proyecto2/listaProductos.php">
                         <h5>Tienda</h5> </a>
                   </li>
-                  <li class="nav-item me-5 dropdown letras ">
-                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Acciones Productos</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="../Proyecto2/eliminarProducto.html">Eliminar un producto</a>
-                    <a class="dropdown-item" href="../Proyecto2/modificarProducto.html">Editar productos</a>
-                    <a class="dropdown-item" href="../Proyecto2/insertarProducto.html">Agregar productos</a>
-                  </div>
-                </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="../Proyecto2/index.html">
+                        <h5>Cerrar Sesión</h5> </a>
+                  </li>
                   
       
               </div>

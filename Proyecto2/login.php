@@ -15,10 +15,10 @@ if ($resultado) {
         $_SESSION['usuario'] = $resultado;
 
         // Redirigir al usuario según su rol
-        if ($resultado['rol'] == 1) {
+        if ($resultado['rol'] == 'Comprador') {
             //Vendedor
             header('Location: Principal1.html');
-        } elseif ($resultado['rol'] == 2) {
+        } elseif ($resultado['rol'] == 'Vendedor') {
             //Comprador
             header('Location: Principal2.html');
         } else {
