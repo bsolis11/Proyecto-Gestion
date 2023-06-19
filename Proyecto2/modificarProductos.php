@@ -19,7 +19,7 @@
         echo'
         <script>
             alert("Producto modificado exitosamente");
-            window.location="modificarProducto.html"
+            window.location="listaProductoVendedor.php"
         </script>
         ';
     }
