@@ -12,7 +12,7 @@
         echo'
         <script>
             alert("Producto eliminado exitosamente");
-            window.location="eliminarProducto.html"
+            window.location="listaProductoVendedor.php"
         </script>
         ';
     }
