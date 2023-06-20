@@ -23,7 +23,7 @@
 <body class="bg-form-add-prod">
 <header>
     <!-- place navbar here -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="ImagenesIndex/eco.png" alt="" width="70" height="54" class="d-inline-block align-text-top">
@@ -46,21 +46,19 @@
                 <h5>Guía</h5>
               </a>
             </li>
+
             <li class="nav-item me-5 dropdown letras ">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h5>Productos</h5></a>
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../Proyecto2/insertarProducto.html" role="button" aria-haspopup="true" aria-expanded="false"><h5>Productos</h5></a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="../Proyecto2/eliminarProducto.html">Eliminar un producto</a>
-                <a class="dropdown-item" href="../Proyecto2/modificarProducto.html">Editar productos</a>
                 <a class="dropdown-item" href="../Proyecto2/insertarProducto.html">Agregar productos</a>
-                <a class="dropdown-item" href="../Proyecto2/listaProductoVendedor.php">Lista de productos</a>
-                
+                <a class="dropdown-item" href="../Proyecto2/listaProductos.php">Listar Productos</a>                
               </div>
             </li>
             <li class="nav-item me-5">
               <a class="nav-link active" aria-current="page" href="../Proyecto2/index.html">
                   <h5>Cerrar Sesión</h5> </a>
             </li>
-          </ul>
+
         </div>
       </div>
     </nav>
@@ -86,7 +84,7 @@
                             <th>Contacto</th>
                             <th>Descripción</th>
                             <th>Cantidad</th>
-                            <th>ID Vendedor</th>
+                            
                             <th>Opciones</th>
                         </tr>
                         
@@ -104,7 +102,6 @@
                           <th> <?php echo $mostrar['contacto']?> </th>
                           <th> <?php echo $mostrar['descripcion']?> </th>
                           <th> <?php echo $mostrar['cantidad']?> </th>
-                          <th> <?php echo $mostrar['idVendedor']?> </th>
                           
                           <th> <a name="" id="" class="btn btn-outline-warning" 
                           href="../Proyecto2/modificarProductoVista.php?nombreProducto=<?php echo urlencode($mostrar['nombreProducto']); 
