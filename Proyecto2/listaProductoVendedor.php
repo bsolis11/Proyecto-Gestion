@@ -51,7 +51,7 @@
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../Proyecto2/insertarProducto.html" role="button" aria-haspopup="true" aria-expanded="false"><h5>Productos</h5></a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="../Proyecto2/insertarProducto.html">Agregar productos</a>
-                <a class="dropdown-item" href="../Proyecto2/listaProductos.php">Listar Productos</a>                
+                <a class="dropdown-item" href="../Proyecto2/listaProductoVendedor.php">Listar Productos</a>                
               </div>
             </li>
             <li class="nav-item me-5">
@@ -84,7 +84,6 @@
                             <th>Contacto</th>
                             <th>Descripción</th>
                             <th>Cantidad</th>
-                            
                             <th>Opciones</th>
                         </tr>
                         
